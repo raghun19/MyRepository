@@ -1,0 +1,7 @@
+function(){
+
+var a = "welcme";
+alert(a);
+
+asdasdasda
+}
