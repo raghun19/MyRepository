@@ -1,0 +1,76 @@
+<nav class="navbar navbar-expand navbar-dark bg-primary"> <a href="#menu-toggle" id="menu-toggle"
+        class="navbar-brand"><span class="navbar-toggler-icon"></span></a> <button class="navbar-toggler" type="button"
+        data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false"
+        aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarsExample02">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"> <button type="button" class="btn btn-primary">
+                    Home
+                </button>
+            </li>
+
+        </ul>
+
+
+        <button class="btn btn-danger" (click)="logOut()"> Log Out </button>
+        <form class="form-inline my-2 my-md-0"> </form>
+    </div>
+</nav>
+
+
+
+<!-- Side Bar Content -->
+
+<div id="wrapper" class="toggled">
+
+    <div id="wrapper">
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav text-center">
+                <li class="">
+                    <img src="assets/images/profile.png" style="height: 50px;width: px;padding-top: 15px;" />
+                    <p class="sidenav-text"> {{authenticateLogin.userDetails.fullName}} </p>
+                    <span style="color: aliceblue; font-weight: bold;">Challenger</span>
+
+
+                </li>
+
+
+
+                <li><a [routerLink]="" (click)="dailyLogs()">Update Daily Logs</a></li>
+                <li><a href="#">Profile<span style="font-size:16px;"
+                            class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
+                <li><a href="#">Messages<span style="font-size:16px;"
+                            class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span></a></li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+
+
+
+
+
+            </ul>
+
+        </div>
+
+
+
+    </div>
+
+</div>
+<!-- Page Content -->
+<div id="page-content-wrapper">
+    <div class="container-fluid">
+
+        <app-update-logs *ngIf="showLogs"> </app-update-logs>
+
+
+    </div>
+</div>
+<!-- /#page-content-wrapper -->
