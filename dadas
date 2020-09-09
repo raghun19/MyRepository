@@ -1,0 +1,35 @@
+[33mcommit fe15cbf8cc45484a4bcdbda46fdfef6c9dc6259f[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m
+Author: raghun19 <raghunandha19@gmail.com>
+Date:   Mon Sep 7 19:14:03 2020 +0530
+
+    changed divide
+
+[33mcommit 975562f243985d2975958255d63321533083fad3[m
+Author: raghun19 <37650129+raghun19@users.noreply.github.com>
+Date:   Mon Sep 7 19:09:48 2020 +0530
+
+    Create DevBranch
+
+[33mcommit 2bf7f27a55b3f09d3a9b8a3f37d5b73f7ada953b[m[33m ([m[1;32mmaster[m[33m)[m
+Author: raghun19 <raghunandha19@gmail.com>
+Date:   Mon Sep 7 12:20:11 2020 +0530
+
+    Divide file
+
+[33mcommit 4a46a3f6d6a970c057c3ead873a89d3aaa78021e[m[33m ([m[1;31morigin/testing[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: raghun19 <raghunandha19@gmail.com>
+Date:   Thu Sep 3 14:01:45 2020 +0530
+
+    commit initially
+
+[33mcommit d469c70f0cdcbc081c3b3e58d5f5e6229666680d[m
+Author: raghun19 <37650129+raghun19@users.noreply.github.com>
+Date:   Thu Sep 3 13:24:10 2020 +0530
+
+    Create SampleTest
+
+[33mcommit fe6ccd30189a7d384c2fb8b7d0c55dd688ff40e4[m
+Author: raghun19 <37650129+raghun19@users.noreply.github.com>
+Date:   Thu Sep 3 13:23:32 2020 +0530
+
+    Initial commit
